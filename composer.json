@@ -1,0 +1,21 @@
+{
+    "name": "jojogis/db_app",
+    "authors": [
+        {
+            "name": "jojogis",
+            "email": "jojogis.lesha@yandex.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Repository\\": "repository/",
+            "Repository\\Abstract\\": "repository/abstract/",
+            "Model\\": "model/",
+            "View\\": "view/"
+        },
+        "files": [
+          "settings.php"
+        ]
+    }
+}
