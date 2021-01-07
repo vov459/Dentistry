@@ -1,0 +1,10 @@
+
+body{
+
+    overflow-x:hidden;
+}
+.form-control:focus ,select:focus{
+    border-color: #343a40!important;
+    box-shadow:0 0 0 0.2rem rgba(52, 58, 64,.25) !important;
+
+}
